@@ -1,0 +1,6 @@
+FROM ghcr.io/imputnet/cobalt:11.7.1-a636575
+
+ENV API_PORT=10000
+ENV CORS_WILDCARD=1
+
+EXPOSE 10000
